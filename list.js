@@ -1,4 +1,5 @@
 const fs = require("fs")
+const fs1 = require("fs")
 console.log('Start')
 const files = fs.readdirSync("./uploads");
 fs.readdir("./uploads",(err,files)=>
@@ -11,4 +12,3 @@ fs.readdir("./uploads",(err,files)=>
 });
 console.log("End")
 console.log(files);
-
