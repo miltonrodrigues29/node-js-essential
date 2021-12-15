@@ -29,7 +29,7 @@ process.stdin.on("data",data=>{
     else
     {
       
-      process.exit();
+      process.exit(); 
     }
 
 
